@@ -30,4 +30,14 @@
 - vuex
 - axios
 
-#### 项目预览
+## 项目预览
+
+
+![markdown](https://shai.oss-cn-beijing.aliyuncs.com/b1.jpg "markdown")
+
+![markdown](https://shai.oss-cn-beijing.aliyuncs.com/b5.jpg "markdown")
+
+![markdown](
+https://shai.oss-cn-beijing.aliyuncs.com/b4.jpg "markdown")
+
+
