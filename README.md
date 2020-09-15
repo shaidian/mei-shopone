@@ -2,7 +2,7 @@
 
 # 前言
 
-此项目是基于nuxt+egg+mysql开发的在线商城系统全栈模板，目前前端部分已适配移动端。面向开发人员友好，快速，轻巧，干净，并包含W3有效源代码。后台管理系统基于vuetify实现。项目正在逐步完善中，如果您在使用购买后发现问题，欢迎您随时提出。目前开源出首页部分进行体验，如果您有需求，请移步[（猪八戒平台）](https://shop.zbj.com/9259639/sid-1632713.html)进行购买。此源码仅作为学习使用，不得商用。
+此项目是基于nuxt+egg+mysql开发的在线商城系统全栈模板，目前前端部分已适配移动端。面向开发人员友好，快速，轻巧，干净，并包含W3有效源代码。后台管理系统基于vuetify实现。项目正在逐步完善中，如果您在使用购买后发现问题，欢迎您随时提出。目前开源出首页部分进行体验，如果您有需求，请移步[（猪八戒平台）](https://shop.zbj.com/9259639/sid-1632713.html)进行购买。此源码仅作为学习使用，不得商用。有任何问题都可以咨询下方的QQ，基本都在线。
 
 <a href="http://shop1.meixiansen.com" target="_blank">商城风格预览（前端地址）</a>
 
@@ -21,9 +21,112 @@
 ## 后端项目特点
 
 ## 前端系统说明
+### 采用nuxt.js构建，极速的服务端渲染，流畅体验
+
+
+
 ## 后端管理系统项目说明
-## 后端apiserver说明
-### 项目整体文件说明
+### 功能
+用于管理用户账号，商品分类，商品信息，订单，数据统计等业务
+
+### 采用 Vuetify 开发
+Vuetify is developed exactly according to Material Design spec. Every component is hand crafted to bring you the best possible UI tools to your next great app. The development doesn't stop at the core components outlined in Google's spec. Through the support of community members and sponsors, additional components will be designed and made available for everyone to enjoy.
+
+### 整体文档简单说明
+```
+admin
+├── README.md
+├── CHANGELOG.md
+├── babel.config.js
+├── cypress.json
+├── jest.config.js
+├── now.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── favicon.png  图标
+│   └── index.html
+├── layouts 布局
+│   ├── frontend
+│   │   └── index.vue
+│   │   └── view.vue
+├── src
+│   ├── App.vue 
+│   ├── assets
+│   │   └── vuetify.svg 等 静态资源
+│   ├── components
+│   │   └── base
+│   │       ├── Btn.vue  按钮
+│   │       ├── Card.vue 卡片
+│   │       ├── Item.vue 菜单项
+│   │       ├── ItemGroup.vue 菜单项
+│   │       ├── MaterialCard.vue 卡片
+│   │       ├── MaterialStatsCard.vue 卡片状态
+│   ├── main.js
+│   ├── plugins
+│   │   ├── base.js 基础
+│   │   ├── chartist.js chart
+│   │   ├── vee-validate.js 验证
+│   │   ├── vue-world-map.js map地图
+│   │   └── vuetify.js vuetify核心
+│   │   └── element.js element核心
+│   ├── router.js 路由
+│   ├── sass sass样式
+│   │   ├── main.scss
+│   │   ├── overrides.sass
+│   │   └── vuetify-material
+│   │       └── _sidebar.sass
+│   ├── store.js vuex状态
+│   └── views
+│       ├── dashboard
+│       │   ├── Dashboard.vue
+│       │   ├── Index.vue
+│       │   ├── components
+│       │   │   └── core
+│       │   │       ├── AppBar.vue
+│       │   │       ├── Drawer.vue
+│       │   │       ├── Settings.vue
+│       │   │       └── View.vue
+│       │   ├── goods
+│       │   │   ├── Add.vue
+│       │   │   ├── Cate.vue
+│       │   │   ├── List.vue
+│       │   │   └── Params.vue
+│       │   ├── order
+│       │   │   ├── citydata.js
+│       │   │   └── Order.vue
+│       │   ├── power
+│       │   │   ├── Rights.vue
+│       │   │   ├── Roles.vue
+│       │   ├── report
+│       │   │   ├── Report.vue
+│       │   └── user
+│       │       ├── User.vue
+│       │       ├── UserProfile.vue
+│       └── pages
+│           ├── Error.vue
+│           ├── Index.vue
+│           ├── Login.vue
+│           └── components
+│               └── core
+│                   ├── Footer.vue
+│                   └── View.vue
+├── tests
+│   ├── e2e
+│   │   ├── plugins
+│   │   │   └── index.js
+│   │   ├── specs
+│   │   │   └── test.js
+│   │   └── support
+│   │       ├── commands.js
+│   │       └── index.js
+│   └── unit
+│       └── example.spec.js
+├── vue.config.js
+```
+
+## 后端apiserver说明（API文档联系QQ获取）
+### 项目整体文件简单说明
 + config 配置文件目录
     + default.json 默认配置文件（其中包含数据库配置，jwt配置）
 + dao 数据访问层，存放对数据库的增删改查操作
