@@ -325,7 +325,7 @@ https://shai.oss-cn-beijing.aliyuncs.com/b4.jpg "markdown")
 
 ### 安装依赖
 ```javascript
-# 预渲染需要安装PrerenderSPAPlugin库，npm install会无法安装Chromuim，建议使用cnpm
+# 建议安装cnpm
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install
 ```
