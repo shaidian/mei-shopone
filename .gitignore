@@ -12,6 +12,7 @@ typings/
 !.autod.conf.js
 config/config.local.ts
 config/env
+.nuxt
 
 config/**/*.js
 app/**/*.map

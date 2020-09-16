@@ -6,7 +6,7 @@
 
 ![markdown](https://shai.oss-cn-beijing.aliyuncs.com/meishop1.gif "markdown")
 
-<a href="http://shop1.meixiansen.com" target="_blank">商城风格预览（前端地址）</a>
+<a href="http://shop1show.meixiansen.com" target="_blank">商城预览</a>
 
 [商城风格预览（后台管理地址）](http:shop1admin.meixiansen.com)
 ```
