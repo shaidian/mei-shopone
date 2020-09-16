@@ -1,3 +1,3 @@
-*.js linguist-language=nuxt；
-*.css linguist-language=vue；
-*.html linguist-language=node
+*.js linguist-language=Vue；
+*.css linguist-language=Nuxt.js；
+*.html linguist-language=Node
