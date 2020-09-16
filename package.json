@@ -1,0 +1,35 @@
+{
+  "name": "shaidian",
+  "version": "1.0.0",
+  "description": "不断创作简约式风格web建站模板，独创自选式晒点(Shaidian)商城。提供企业级整套的web解决方案，优质保姆式服务。",
+  "author": "槑先森",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0",
+    "nprogress": "^0.2.0",
+    "nuxt": "^2.0.0",
+    "vue-backtotop": "^1.6.1",
+    "vue-carousel": "^0.18.0",
+    "vue-toastification": "^0.8.0",
+    "vueperslides": "^2.8.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2"
+  },
+  "config": { 
+    "nuxt": {
+        "host": "localhost",
+        "port": "7891"
+    }
+}
+}
