@@ -1,4 +1,4 @@
 *.js linguist-language=JavaScript；
-*.css linguist-language=Nuxt；
-*.scss linguist-language=Nuxt;
-*.html linguist-language=html;
+*.css linguist-language=css；
+*.scss linguist-language=Vue;
+*.html linguist-language=Vue;
